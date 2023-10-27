@@ -74,7 +74,7 @@ const ChiTietPhim = () => {
               <div className="col-span-3">
                 <img src={hinhAnh} alt="" className="rounded-lg w-full h-full object-cover" />
               </div>
-              <div className="contentPhim col-span-3">
+              <div className="contentPhim col-span-7">
                 <div className="ml-6 space-y-2">
                   <h1 className="text-3xl mb-5 font-bold">{tenPhim}</h1>
                   <hr className="opacity-50" />
