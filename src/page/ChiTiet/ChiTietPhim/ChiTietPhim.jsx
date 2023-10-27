@@ -70,11 +70,11 @@ const ChiTietPhim = () => {
       <div className="bg-[#0a2029] h-[800px] text-white">
         <div className="pt-24">
           <div className="container mx-auto">
-            <div className="flex p-6 bg-slate-700 rounded-3xl">
-              <div>
-                <img src={hinhAnh} alt="" className="object-cover rounded-lg" />
+            <div className="grid grid-cols-10 p-6 bg-slate-700 rounded-3xl">
+              <div className="col-span-3">
+                <img src={hinhAnh} alt="" className="rounded-lg w-full h-full object-cover" />
               </div>
-              <div className="contentPhim">
+              <div className="contentPhim col-span-3">
                 <div className="ml-6 space-y-2">
                   <h1 className="text-3xl mb-5 font-bold">{tenPhim}</h1>
                   <hr className="opacity-50" />
