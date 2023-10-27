@@ -1,0 +1,13 @@
+.tabHeThongRap .ant-tabs-nav {
+  max-height: 516px;
+  overflow-y: auto;
+}
+
+button.ant-tabs-nav-more {
+  display: none;
+}
+
+.ant-tabs-tab {
+  border: 4px;
+  border-color: gray;
+}

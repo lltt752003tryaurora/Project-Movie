@@ -1,0 +1,26 @@
+#banner {
+  .slick-prev {
+    left: 15px;
+    z-index: 10;
+    &::before {
+      font-size: 50px;
+    }
+  }
+
+  .slick-next {
+    right: 45px;
+    z-index: 10;
+    &::before {
+      font-size: 50px;
+    }
+  }
+  .slick-dots {
+    li {
+      button {
+        &::before {
+          content: "";
+        }
+      }
+    }
+  }
+}

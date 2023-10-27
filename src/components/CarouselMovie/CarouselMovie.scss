@@ -1,0 +1,50 @@
+#movie {
+  .slick-prev {
+    left: -70px;
+    z-index: 10;
+    &::before {
+      font-size: 50px;
+      color: burlywood;
+    }
+  }
+
+  .slick-next {
+    right: -50px;
+    z-index: 10;
+    &::before {
+      font-size: 50px;
+      color: burlywood;
+    }
+  }
+  .slick-dots {
+    bottom: 0;
+    li {
+      margin-inline: 15px;
+      button {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: red;
+        &::before {
+          content: "";
+        }
+      }
+    }
+  }
+}
+
+#item-movie .movieCarousel:hover .icon_play {
+  opacity: 1 !important;
+}
+
+#item-movie .movieCarousel:hover .overlay {
+  opacity: 0.5 !important;
+}
+
+#item-movie .movieCarousel:hover .btn_DatVe, #item-movie .movieCarousel:hover .DatVe {
+  display: inline-block !important;
+}
+
+#item-movie .movieCarousel:hover .contentFilm {
+  display: none;
+}
