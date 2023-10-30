@@ -277,7 +277,6 @@ const DropDownMenu = () => {
               </li>
             </ul>
           </div>
-          ;
         </div>
       </div>
     </>
