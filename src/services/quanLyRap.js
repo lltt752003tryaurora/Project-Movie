@@ -6,7 +6,7 @@ export const quanLyRapServic = {
   },
   layThongTinLichChieuHeThongRap: (maHeThongRap) => {
     return https.get(
-      `/api/QuanLyRap/LayThongTinLichChieuHeThongRap?maHeThongRap=${maHeThongRap}&maNhom=GP04`
+      `/api/QuanLyRap/LayThongTinLichChieuHeThongRap?maHeThongRap=${maHeThongRap}&maNhom=GP07`
     );
   },
 };

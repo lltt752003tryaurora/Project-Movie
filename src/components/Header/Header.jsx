@@ -22,7 +22,7 @@ const Header = () => {
     // gọi dữ liệu từ localStore lên
     const userLocal = JSON.parse(localStorage.getItem("user"));
     if (userLocal) {
-      // bắn dữ liệu lên từ localStorage
+      // truyền dữ liệu vào hàm action creator
       dispatch(setDataUser(userLocal));
     }
   }, []);
